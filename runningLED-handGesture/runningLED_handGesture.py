@@ -5,7 +5,7 @@ import cv2
 import handTrackingModule as htm
 import math
 
-#Arduino's port is connected to COM5. Take a look at Arduino IDE to see which port is connected to
+#Arduino's port is connected to COM5. Take a look at Arduino IDE to see which port is connected 
 board = pyfirmata.Arduino('COM5')
 
 #LED's pins connected to Arduino
